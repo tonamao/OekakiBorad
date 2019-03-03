@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>SameGame</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="title">
+      <p>おえかきボード</p>
+    </div>
+    <div id="board">
+      <canvas id="canvas" width="500px" height="500px"></canvas>
+    </div>
+    <div id="palette">
+      <a href="#" id="pen" class="btn-circle-flat" id="onoff">
+        <i class="fas fa-paint-brush fa-3x"></i>
+      </a>
+      <a href="#" id="eraser" class="btn-circle-flat" id="onoff">
+        <i class="fas fa-eraser fa-3x"></i>
+      </a>
+      <a href="#" id="clear" class="btn-circle-flat" id="onoff">
+        <i class="fas fa-undo-alt fa-3x"></i>
+      </a>
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

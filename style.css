@@ -1,0 +1,76 @@
+* {
+  box-sizing: border-box;
+}
+
+body{
+  background: #CCCCCC;
+  text-align: center;
+  font-family: 'Courier New', sans-serif;
+}
+
+
+#board {
+    padding: 0.2em 0.5em;
+    margin: 2em auto;
+    width: 520px;
+    background: #ffda79;
+    box-shadow: 0px 0px 0px 10px #ffda79;
+    border: dashed 2px white;
+}
+
+.title{
+    padding: 0.2em 0.5em;
+    margin: 2em auto;
+    width: 300px;
+    background: #ffda79;
+    box-shadow: 0px 0px 0px 10px #ffda79;
+    border: dashed 2px white;
+}
+.title p {
+    user-select: none;
+　　color: #636e72;
+    margin: 0; 
+    padding: 4px;
+}
+
+canvas{
+  cursor: pointer;
+  background: white;
+  border-radius: 16px;
+  
+}
+
+.tools{
+  margin: 0px;
+  background: orange;
+  text-align: center;
+}
+
+.btn-circle-flat {
+ display: inline-block;
+ text-decoration: none;
+ /*background: #87befd;*/
+ background: #ffeaa7;
+ width: 60px;
+ height: 60px;
+ line-height: 60px;
+ border-radius: 50%;
+ text-align: center;
+ margin-right: 12px;
+ margin-left: 12px;
+ margin-top: 4px;
+ margin-bottom: 4px;
+ vertical-align: middle;
+ overflow: hidden;
+ transition: .4s;
+}
+
+.btn-circle-flat i {
+ /*ボタン自体*/
+ vertical-align: middle;
+ color: #636e72;
+ top: 9px;
+ border-radius: 50%;
+ font-size: 36px;
+
+}

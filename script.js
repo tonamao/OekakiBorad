@@ -40,11 +40,12 @@
       var y = e.clientY - rect.top;
 
       ctx.lineTo(x, y);
-      ctx.lineWidth = 5;
       if(penMode == 0){
         ctx.strokeStyle = '#2d3436';
+        ctx.lineWidth = 5;
       }else if(penMode == 1){
         ctx.strokeStyle = 'white';
+        ctx.lineWidth = 20;
       }
       ctx.stroke();
     };
@@ -76,8 +77,10 @@
       ctx.lineWidth = 5;
       if(penMode == 0){
         ctx.strokeStyle = '#2d3436';
+        ctx.lineWidth = 5;
       }else if(penMode == 1){
         ctx.strokeStyle = 'white';
+        ctx.lineWidth = 20;
       }
       ctx.stroke();
     };
